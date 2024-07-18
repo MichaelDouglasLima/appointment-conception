@@ -1,0 +1,22 @@
+@startuml "Model"
+    class Professional {
+
+    }
+
+    class Appointment {
+
+    }
+
+    class Client {
+
+    }
+
+    class Operator {
+
+    }
+
+    class History {
+        
+    }
+
+@enduml
