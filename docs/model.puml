@@ -1,9 +1,23 @@
 @startuml "Model"
     class Professional {
-
+        name: String
+        phone: String
+        active: boolean
     }
 
     class Appointment {
+        date: Date
+        startTime: Time
+        endTime: Time
+        comments: String
+        status: PRESENT | ABSENT | CANCEL | OPEN
+    }
+
+    class WorkScheduleItem {
+
+    }
+
+    class Area {
 
     }
 
@@ -11,12 +25,12 @@
 
     }
 
-    class Operator {
+    class AppointmentType {
 
     }
 
-    class History {
-        
+    class User {
+
     }
 
 @enduml
