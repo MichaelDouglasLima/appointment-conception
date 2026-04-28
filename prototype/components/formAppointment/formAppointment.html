@@ -1,64 +1,52 @@
-<h1>Formulário</h1>
 <form>
-  <div class="row mt-3">
-    <select class="form-select" aria-label="Default select example">
-      <option selected>Selecione a Área:</option>
-      <option value="1">Área 1</option>
-      <option value="2">Área 2</option>
+  <div class="mb-3">
+    Escolha uma área:
+
+    <select class="form-select" aria-label="Selecione uma área">
+      <option selected>Selecione uma área</option>
+      <option value="1">Clinico Geral</option>
+      <option value="2">Fisoterapeuta</option>
+      <option value="3">Cardiologista</option>
     </select>
   </div>
 
-  <div class="row mt-3">
-    <select class="form-select" aria-label="Default select example">
-      <option selected>Selecione o Profissional:</option>
-      <option value="1">Profissional 1</option>
-      <option value="2">Profissional 2</option>
+  <div class="mb-3">
+    Escolha um profissional:
+
+    <select class="form-select" aria-label="Selecione um profissional">
+      <option selected>Selecione um profissional</option>
+      <option value="1">Dr. Fernando Souza</option>
+      <option value="2">Dra. Maria Lucia</option>
+      <option value="3">Dr. Marco Pereira</option>
     </select>
   </div>
 
-  <div class="row mt-3 text-start">
-    <div>
-      Tipo de Atendimento:
-    </div>
+  <div class="mb-3">
+    Selecione um tipo:
 
-    <div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
-        <label class="form-check-label" for="radioDefault1">
-          Particular
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
-        <label class="form-check-label" for="radioDefault2">
-          Convênio
-        </label>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="row mt-3">
-    <select class="form-select" aria-label="Default select example">
-      <option selected>Selecione o Cliente:</option>
-      <option value="1">Cliente 1</option>
-      <option value="2">Cliente 2</option>
+    <select class="form-select" aria-label="Tipo de atendimento">
+      <option selected>Tipo de atendimento</option>
+      <option value="1">Particular</option>
+      <option value="2">Convênio Dr. Saúde</option>
+      <option value="3">Convênio Prefeitura</option>
     </select>
   </div>
 
-  <div class="row mt-3">
-    <div class="form-floating">
-      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-        style="height: 100px"></textarea>
-      <label for="floatingTextarea2">Comentários</label>
+  <div class="mb-3">
+    Crie ou digite o nome do cliente:
+
+    <div class="input-group">
+      <input class="form-control" type="text" value="" aria-label="input name">
+    </div>
+
+    <div class="text-start">
+      <small>Confirme o telefone do cliente: (15) 99975-1539</small>
     </div>
   </div>
 
-  <div class="row mt-3">
-    <div class="col-6 offset-3">
-      <button type="button" class="btn btn-primary btn-lg">Agendar</button>
-    </div>
+  <div class="mb-3">
+    Comentários:
 
+    <textarea class="form-control" id="floatingTextarea"></textarea>
   </div>
-
 </form>

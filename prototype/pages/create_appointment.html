@@ -7,6 +7,8 @@
   <title>Agenda</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -20,7 +22,9 @@
         <div id="form-appointment"></div>
       </div>
 
-      <div class="col-6 border rounded shadow-sm p-4"></div>
+      <div class="col-6 border rounded shadow-sm p-4">
+        <div id="calendar"></div>
+      </div>
     </div>
 
   </div>
@@ -36,6 +40,7 @@
     $(function () {
       $("#nav-bar").load("../components/navbar/navbar.html");
       $("#form-appointment").load("../components/formAppointment/formAppointment.html");
+      $("#calendar").load("../components/calendar/calendar.html");
     })
   </script>
 </body>
