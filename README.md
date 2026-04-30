@@ -82,3 +82,7 @@ Observação: Não remover dados com relacionamentos.
 ### Model
 
 ![Model](/out/docs/model/model.png)
+
+### Endpoints
+
+![Endpotins](/out/docs/end_points/end_points.png)
