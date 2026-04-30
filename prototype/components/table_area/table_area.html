@@ -1,0 +1,50 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Remover</th>
+    </tr>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Filtrar pelo nome" aria-label="Area name filter">
+        </div>
+      </th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><a href="/prototype/pages/area.html">Clinico Geral</a></td>
+      <td>
+        <img src="/prototype/components/table_client/svg/trash3-fill.svg" width="20" height="20" alt="remove">
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><a href="/prototype/pages/area.html">Fisoterapeuta</a></td>
+      <td>
+        <img src="/prototype/components/table_client/svg/trash3-fill.svg" width="20" height="20" alt="remove">
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><a href="/prototype/pages/area.html">Cardiologista</a></td>
+      <td>
+        <img src="/prototype/components/table_client/svg/trash3-fill.svg" width="20" height="20" alt="remove">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div id="paginator"></div>
+
+<script>
+  $(function () {
+    $("#paginator").load("/prototype/components/paginator/paginator.html");
+  });
+</script>
